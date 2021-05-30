@@ -1,12 +1,11 @@
-import React from 'react'
-import Navbar from "../components/Navbar";
+import React from 'react';
+import Layout from '../components/Layout';
 
 export default function about() {
   return (
-    <div>
-      <Navbar/>
+    <Layout>
       <h1>About Page</h1>
       <p>Something in about page</p>
-    </div>
+    </Layout>
   )
 }
