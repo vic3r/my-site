@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
 import Layout from '../components/Layout';
-import { header, btn } from "../styles/home.module.css" 
+import Img from 'gatsby-image';
+import { header, btn } from "../styles/home.module.css";
 
 export default function Home({ data }) {
   const { title, description } = data.site.siteMetadata;
+  const srcImg = data.file.childImageSharp.fluid;
 
   return (
     <Layout>
@@ -15,7 +17,7 @@ export default function Home({ data }) {
           <p>Myself</p>
           <Link className={btn} to="/projects">My Portfolio Projects</Link>
         </div>
-        <img src="/victor-photo.JPG" alt="site banner"/>
+        <Img fluid={srcImg} />
       </section>
     </Layout>
   );
@@ -27,6 +29,13 @@ export const query = graphql`
       siteMetadata {
         description,
         title
+      }
+    }
+    file(relativePath: {eq: "victor-photo.JPG"}) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
       }
     }
   }
