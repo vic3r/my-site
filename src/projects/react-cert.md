@@ -21,5 +21,6 @@ Web platform which lets you:
 
 ### Links
 - [Github Link](https://github.com/vic3r/react-cert)
+- [Page](https://zealous-panini-0ea2fa.netlify.app)
 
 `Note: youtube api is used`
