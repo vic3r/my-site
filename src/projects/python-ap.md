@@ -11,14 +11,14 @@ featured: ../images/featured/gaming-banner.png
 # Shipments with Postgres & Redis
 Flask Project with DDD principles
 
-## Description
+### Features
 
 Backend service which lets you:
 - Create products, orders and shipments for a customer
 - Allows you to handle notifications via email
 
-### Links
+Links:
+- [Github](https://github.com/vic3r/python-AP)
 
-- [Github Link](https://github.com/vic3r/python-AP)
-- based on (Cosmic Python)[https://github.com/cosmicpython/code]
+Note: based on [Cosmic Python](https://github.com/cosmicpython/code)
 
