@@ -11,15 +11,14 @@ featured: ../images/featured/coffee-banner.png
 # Movie App
 There are 3 apps: Authentication service, Films service and React app
 
-## Description
+### Features
 
 Backend service which lets you:
 - Create a user and authenticate it
 - Consult movies from an IMDB catalog
 - Do fake purchases on movies
 
-### Links
-
-- [React Application](https://github.com/vic3r/movie-catalog)
-- [Django Images Service](https://github.com/vic3r/movie-images-django)
-- [Django Service](https://github.com/vic3r/movie-app-django)
+Links:
+  - [React Application](https://github.com/vic3r/movie-catalog)
+  - [Django Images Service](https://github.com/vic3r/movie-images-django)
+  - [Django Service](https://github.com/vic3r/movie-app-django)
